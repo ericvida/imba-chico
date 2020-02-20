@@ -6,7 +6,7 @@ tag app-root
 ### css
 chico-bird {
 	margin: auto;
-	top: 30vh;
+	top: 100px;
 	display: block;
 }
 app-root {
