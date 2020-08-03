@@ -1,30 +1,25 @@
 import './mascot-chico.imba'
+let birdColor = "red"
+global css body
+	margin: 0
+
 tag app-root
 	def render
 		<self>
-			<a.github href="https://github.com/iamtirado/imba-chico" target="_blank"> "See code on github"
+			<a href="https://github.com/iamtirado/imba-chico" target="_blank"> "See code on github"
 			<chico-bird size="30" shadow=true>
-### css
-.github {
-	color: gold;
-	display: block;
-	padding: 20px;
-	font-size: 30px;
-	color: #C2A3FF;
-}
-chico-bird {
-	margin: auto;
-	top: 100px;
-	display: block;
-}
-app-root {
-	width: 100%;
-	height: 100vh;
-	display: block;
-	background-color: hsl(260,100%,5%)
-}
-html, body {
-	padding: 0;
-	margin: 0;
-}
-###
+
+css app-root
+	display:block 
+	width:100% 
+	height:100vh 
+	bg:gray9
+	a
+		color: red2;
+		padding: 2
+		ff:sans
+		font-size: 4
+	chico-bird
+		margin: auto;
+		top: 100px;
+		display: block;
