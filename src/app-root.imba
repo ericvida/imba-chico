@@ -6,4 +6,4 @@ tag app-root
 		<self>
 			<section[d:flex jc:space-evenly bg:gray1 rdb:50%]>
 				<div[x:{x} y:{y}] @touch.moved.sync(self)>
-					<imba-mascot[fs:8px]>
+					<imba-mascot[fs:15px]>

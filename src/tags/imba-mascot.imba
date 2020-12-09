@@ -110,7 +110,7 @@ tag imba-mascot
 			50% transform: rotate(10deg)
 		fly
 			50% transform: translateY(10px)
-	css .speechbubble d:block bg: gray4 c:gray9 ff:sans fw:bold d:inline-block p:1 rdt:2 rdbr:2 transform: translateX(80px)
+	css .speechbubble pos:absolute bottom:10em l:9em d:block bg:gray4 c:gray9 ff:sans fw:bold p:1 rdt:2 rdbr:2 fs:1em
 	prop greeting = "Hello!"
 	def dragged
 		greeting = "Yaaaay!"
